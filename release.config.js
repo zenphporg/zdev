@@ -109,7 +109,7 @@ export default {
         replacements: [
           {
             files: ['config/app.php'],
-            from: "'version' => '.*'",
+            from: /'version' => '[^']*'/,
             to: "'version' => '${nextRelease.version}'",
             results: [
               {
@@ -133,7 +133,7 @@ export default {
     [
       '@semantic-release/git',
       {
-        assets: ['CHANGELOG.md'],
+        assets: ['CHANGELOG.md', 'config/app.php', 'builds/zdev'],
       },
     ],
     ['@semantic-release/github'],
