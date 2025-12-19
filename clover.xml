@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1766113127">
+  <project timestamp="1766113127" name="Clover Coverage">
+    <package name="App\Commands">
+      <file name="app/Commands/NewCommand.php">
+        <class name="App\Commands\NewCommand" namespace="App\Commands">
+          <metrics complexity="9" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="37" elements="42" coveredelements="42"/>
+        </class>
+        <line num="33" type="method" name="handle" visibility="public" complexity="2" crap="2" count="19"/>
+        <line num="35" type="stmt" count="19"/>
+        <line num="36" type="stmt" count="18"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="47" type="method" name="createPackage" visibility="private" complexity="4" crap="4" count="18"/>
+        <line num="50" type="stmt" count="18"/>
+        <line num="52" type="stmt" count="18"/>
+        <line num="53" type="stmt" count="7"/>
+        <line num="55" type="stmt" count="7"/>
+        <line num="58" type="stmt" count="11"/>
+        <line num="59" type="stmt" count="11"/>
+        <line num="61" type="stmt" count="11"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="10"/>
+        <line num="69" type="stmt" count="10"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="9"/>
+        <line num="76" type="stmt" count="9"/>
+        <line num="78" type="stmt" count="9"/>
+        <line num="80" type="stmt" count="9"/>
+        <line num="81" type="stmt" count="9"/>
+        <line num="84" type="stmt" count="9"/>
+        <line num="87" type="stmt" count="9"/>
+        <line num="93" type="stmt" count="9"/>
+        <line num="96" type="stmt" count="9"/>
+        <line num="98" type="stmt" count="9"/>
+        <line num="104" type="method" name="isValidPackageName" visibility="private" complexity="1" crap="1" count="18"/>
+        <line num="106" type="stmt" count="18"/>
+        <line num="112" type="method" name="getDirectoryName" visibility="private" complexity="1" crap="1" count="11"/>
+        <line num="114" type="stmt" count="11"/>
+        <line num="116" type="stmt" count="11"/>
+        <line num="122" type="method" name="updateComposerJson" visibility="private" complexity="1" crap="1" count="9"/>
+        <line num="124" type="stmt" count="9"/>
+        <line num="126" type="stmt" count="9"/>
+        <line num="128" type="stmt" count="9"/>
+        <line num="130" type="stmt" count="9"/>
+        <line num="131" type="stmt" count="9"/>
+        <line num="132" type="stmt" count="9"/>
+        <line num="133" type="stmt" count="9"/>
+        <metrics loc="136" ncloc="109" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="37" elements="42" coveredelements="42"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="app/Providers/AppServiceProvider.php">
+        <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="12" type="method" name="boot" visibility="public" complexity="1" crap="1" count="19"/>
+        <line num="15" type="stmt" count="19"/>
+        <line num="20" type="method" name="register" visibility="public" complexity="1" crap="1" count="19"/>
+        <line num="23" type="stmt" count="19"/>
+        <metrics loc="25" ncloc="17" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <metrics files="2" loc="161" ncloc="126" classes="2" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="39" elements="46" coveredelements="46"/>
+  </project>
+</coverage>
