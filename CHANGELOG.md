@@ -1,5 +1,12 @@
 # Release Notes
 
+## [1.0.4](https://github.com/zenphporg/zdev/compare/v1.0.3...v1.0.4) (2025-12-19)
+
+
+### Bug Fixes
+
+* update build badge in readme ([31afbc5](https://github.com/zenphporg/zdev/commit/31afbc595e92d9e1806833c4c4fac556d5a2ba24))
+
 ## [1.0.3](https://github.com/zenphporg/zdev/compare/v1.0.2...v1.0.3) (2025-12-19)
 
 
