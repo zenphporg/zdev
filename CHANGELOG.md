@@ -1,5 +1,12 @@
 # Release Notes
 
+## [1.0.6](https://github.com/zenphporg/zdev/compare/v1.0.5...v1.0.6) (2025-12-19)
+
+
+### Code Refactoring
+
+* added self-update ([368fa10](https://github.com/zenphporg/zdev/commit/368fa10b3e074179db2e4d5f0e41959a57f8c118))
+
 ## [1.0.5](https://github.com/zenphporg/zdev/compare/v1.0.4...v1.0.5) (2025-12-19)
 
 
