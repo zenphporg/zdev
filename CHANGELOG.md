@@ -1,5 +1,17 @@
 # Release Notes
 
+## [1.0.1](https://github.com/zenphporg/zdev/compare/v1.0.0...v1.0.1) (2025-12-19)
+
+
+### Bug Fixes
+
+* fix version in config ([3fc75fa](https://github.com/zenphporg/zdev/commit/3fc75fad63a71ea9c14a60ea02332095bf0f1629))
+
+
+### Maintenance
+
+* update readme ([3aa9194](https://github.com/zenphporg/zdev/commit/3aa9194dc2de7b9ec917c8698ed83b908a5b87c6))
+
 # 1.0.0 (2025-12-19)
 
 
