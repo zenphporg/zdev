@@ -1,11 +1,13 @@
+.DS_Store
 /vendor
+/node_modules
 /.idea
 /.vscode
 /.vagrant
 /.claude
+/.husky
 /bin
+/builds/zdev
 .phpunit.result.cache
-.DS_Store
 bun.lock
 composer.lock
-node_modules
