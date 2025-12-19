@@ -30,8 +30,20 @@ jobs:
         with:
           bun-version: '1.3.0'
 
-      - name: Install Dependencies
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite
+          ini-values: error_reporting=E_ALL
+          tools: composer:v2
+          coverage: none
+
+      - name: Install Node Dependencies
         run: bun install
+
+      - name: Install PHP Dependencies
+        run: composer install --no-interaction --prefer-dist
 
       - name: Run Semantic Release
         env:
