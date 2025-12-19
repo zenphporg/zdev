@@ -1,5 +1,17 @@
 # Release Notes
 
+## [1.0.2](https://github.com/zenphporg/zdev/compare/v1.0.1...v1.0.2) (2025-12-19)
+
+
+### Bug Fixes
+
+* another attempt to force a build ([4e8f386](https://github.com/zenphporg/zdev/commit/4e8f386e51333749a722797bf9975bfa2af7e7a7))
+
+
+### Work in Progress
+
+* attempting to get the build to save ([8418873](https://github.com/zenphporg/zdev/commit/841887397d7b0855ffe459c4d226d78082a6d9f0))
+
 ## [1.0.1](https://github.com/zenphporg/zdev/compare/v1.0.0...v1.0.1) (2025-12-19)
 
 
