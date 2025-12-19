@@ -1,5 +1,12 @@
 # Release Notes
 
+## [1.0.5](https://github.com/zenphporg/zdev/compare/v1.0.4...v1.0.5) (2025-12-19)
+
+
+### Bug Fixes
+
+* update to maintenance yml ([7f2e290](https://github.com/zenphporg/zdev/commit/7f2e2907599fe9c0d34b39378e58a33c85642a85))
+
 ## [1.0.4](https://github.com/zenphporg/zdev/compare/v1.0.3...v1.0.4) (2025-12-19)
 
 
