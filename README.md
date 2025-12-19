@@ -15,7 +15,19 @@ A command-line tool for scaffolding new Composer packages and projects.
 ## Installation
 
 ```bash
-composer global require zenphp/zdev
+curl -sL https://github.com/zenphporg/zdev/releases/latest/download/zdev -o /usr/local/bin/zdev && chmod +x /usr/local/bin/zdev
+```
+
+Or if you need sudo:
+
+```bash
+curl -sL https://github.com/zenphporg/zdev/releases/latest/download/zdev -o zdev && chmod +x zdev && sudo mv zdev /usr/local/bin/
+```
+
+### Updating
+
+```bash
+zdev self-update
 ```
 
 ## Usage

@@ -136,6 +136,11 @@ export default {
         assets: ['CHANGELOG.md', 'config/app.php', 'builds/zdev'],
       },
     ],
-    ['@semantic-release/github'],
+    [
+      '@semantic-release/github',
+      {
+        assets: [{ path: 'builds/zdev', label: 'zdev' }],
+      },
+    ],
   ],
 };
