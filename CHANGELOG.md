@@ -1,5 +1,12 @@
 # Release Notes
 
+## [1.0.3](https://github.com/zenphporg/zdev/compare/v1.0.2...v1.0.3) (2025-12-19)
+
+
+### Bug Fixes
+
+* remove build trigger file ([00dd367](https://github.com/zenphporg/zdev/commit/00dd3678b6d64ca1da122643940388d529fc9c65))
+
 ## [1.0.2](https://github.com/zenphporg/zdev/compare/v1.0.1...v1.0.2) (2025-12-19)
 
 
