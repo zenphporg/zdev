@@ -1,5 +1,12 @@
 # Release Notes
 
+## [1.0.7](https://github.com/zenphporg/zdev/compare/v1.0.6...v1.0.7) (2025-12-19)
+
+
+### Bug Fixes
+
+* attach phar to github release assets ([ac010fc](https://github.com/zenphporg/zdev/commit/ac010fc1e165cbcfd748f344807215fec0d9041d))
+
 ## [1.0.6](https://github.com/zenphporg/zdev/compare/v1.0.5...v1.0.6) (2025-12-19)
 
 
